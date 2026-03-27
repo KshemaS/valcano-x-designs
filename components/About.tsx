@@ -66,7 +66,7 @@ const About = () => {
             {/* Animated Border Container */}
             <div className="relative z-10 p-[1px] rounded-2xl overflow-hidden group">
               {/* Spinning gradient */}
-              <div className="absolute inset-[-100%] animate-[spin_4s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#000000_0%,#E65100_50%,#000000_100%)] opacity-70 group-hover:opacity-100 transition-opacity duration-500" />
+              <div className="absolute inset-[-100%] animate-[spin_4s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#000000_0%,#ee3a24_50%,#000000_100%)] opacity-70 group-hover:opacity-100 transition-opacity duration-500" />
 
               {/* Inner card card content */}
               <div className="relative bg-black rounded-2xl p-8 md:p-12 border border-white/5 h-full w-full z-10">

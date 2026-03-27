@@ -33,7 +33,7 @@ const Footer = () => {
                     <motion.a
                         key={i}
                         href="#"
-                        whileHover={{ y: -5, color: '#E65100' }}
+                        whileHover={{ y: -5, color: '#ee3a24' }}
                         className="h-10 w-10 rounded-lg bg-white/5 flex items-center justify-center text-white/40 border border-white/10 hover:border-primary/50 transition-colors"
                     >
                         <Icon size={20} />
