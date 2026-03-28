@@ -23,7 +23,7 @@ const Contact = () => {
               Let's Create Something <span className="text-primary italic">Epic</span>
             </h3>
             <p className="text-white/60 text-lg mb-12 max-w-md">
-              Ready to take your brand to the next level? Drop me a message and let's discuss your project.
+              Have a project in mind? Partner with Volcano X Designs to create something exceptional.
             </p>
 
             <div className="space-y-8">
@@ -33,7 +33,9 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="text-white font-bold font-everett text-lg">Email Me</h4>
-                  <p className="text-white/40">hello@volcanox.com</p>
+                  <a href="mailto:info@volcanoxdesigns.com" className="text-white/40 hover:text-primary transition-colors cursor-pointer">
+                    info@volcanoxdesigns.com
+                  </a>
                 </div>
               </div>
 
@@ -43,7 +45,9 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="text-white font-bold font-everett text-lg">Call Support</h4>
-                  <p className="text-white/40">+1 (234) 567-890</p>
+                  <a href="tel:+1234567890" className="text-white/40 hover:text-primary transition-colors pointer-events-auto">
+                    +971 569616351
+                  </a>
                 </div>
               </div>
 
@@ -53,7 +57,9 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="text-white font-bold font-everett text-lg">WhatsApp</h4>
-                  <p className="text-white/40">+1 (234) 567-891</p>
+                  <a href="https://wa.me/1234567891" target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-primary transition-colors pointer-events-auto">
+                    +971 569616351
+                  </a>
                 </div>
               </div>
             </div>
@@ -70,17 +76,17 @@ const Contact = () => {
             <form className="space-y-6">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="space-y-2">
-                <label className="text-xs uppercase tracking-widest text-white/40 font-poppins ml-1">Full Name</label>
-                  <input 
-                    type="text" 
+                  <label className="text-xs uppercase tracking-widest text-white/40 font-poppins ml-1">Full Name</label>
+                  <input
+                    type="text"
                     placeholder="John Doe"
                     className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-4 text-white placeholder:text-white/10 focus:outline-none focus:border-primary/50 transition-colors"
                   />
                 </div>
                 <div className="space-y-2">
-                <label className="text-xs uppercase tracking-widest text-white/40 font-poppins ml-1">Email Address</label>
-                  <input 
-                    type="email" 
+                  <label className="text-xs uppercase tracking-widest text-white/40 font-poppins ml-1">Email Address</label>
+                  <input
+                    type="email"
                     placeholder="john@example.com"
                     className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-4 text-white placeholder:text-white/10 focus:outline-none focus:border-primary/50 transition-colors"
                   />
@@ -88,19 +94,20 @@ const Contact = () => {
               </div>
 
               <div className="space-y-2">
-                <label className="text-xs uppercase tracking-widest text-white/40 font-poppins ml-1">Service Interested In</label>
+                <label className="text-xs uppercase tracking-widest text-white/40 font-poppins ml-1">Service Needed</label>
                 <select className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-4 text-white focus:outline-none focus:border-primary/50 transition-colors appearance-none">
+                  <option className="bg-black">Select Service</option>
+                  <option className="bg-black">Creative Design Services</option>
                   <option className="bg-black">Website Development</option>
                   <option className="bg-black">UI/UX Design</option>
                   <option className="bg-black">Digital Marketing</option>
                   <option className="bg-black">Branding & Identity</option>
-                  <option className="bg-black">Creative Design Services</option>
                 </select>
               </div>
 
               <div className="space-y-2">
                 <label className="text-xs uppercase tracking-widest text-white/40 font-poppins ml-1">Message</label>
-                <textarea 
+                <textarea
                   rows={4}
                   placeholder="Tell us about your project..."
                   className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-4 text-white placeholder:text-white/10 focus:outline-none focus:border-primary/50 transition-colors resize-none"

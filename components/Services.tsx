@@ -7,34 +7,34 @@ import { Palette, Box, Globe, Layout, Megaphone, PenTool } from 'lucide-react';
 const Services = () => {
   const services = [
     {
+      title: 'Creative Design Services',
+      desc: 'Expert design solutions including Poster Designing, Visiting Card Designing, Logo Designing, Social Media Creatives, and Flyers & Banners.',
+      icon: <Palette size={24} />,
+      image: 'https://images.unsplash.com/photo-1558655146-d09347e92766?q=80&w=800&auto=format&fit=crop',
+    },
+    {
       title: 'Website Development',
-      desc: 'Modern, responsive, and high-performance websites built with the latest technologies.',
+      desc: 'Custom web applications and software solutions built for scalability, security, and performance.',
       icon: <Globe size={24} />,
-      image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=800&auto=format&fit=crop',
+      image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=800&auto=format&fit=crop',
     },
     {
       title: 'UI/UX Design',
-      desc: 'Intuitive and engaging user interfaces designed for seamless digital experiences.',
+      desc: 'User-centered interfaces that provide smooth, engaging, and intuitive user experiences.',
       icon: <Layout size={24} />,
-      image: 'https://images.unsplash.com/photo-1586717791821-3f44a563eb4c?q=80&w=800&auto=format&fit=crop',
+      image: '/ui-ux-design.png',
     },
     {
       title: 'Digital Marketing',
-      desc: 'Strategic online marketing solutions to increase brand visibility and drive engagement.',
+      desc: 'Data-driven marketing strategies that increase visibility, attract the right audience, and boost conversions.',
       icon: <Megaphone size={24} />,
       image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=800&auto=format&fit=crop',
     },
     {
       title: 'Branding & Identity',
-      desc: 'Comprehensive visual systems including color palettes, logos, and typography.',
+      desc: 'Complete brand identity systems that create strong and memorable impressions.',
       icon: <Box size={24} />,
       image: 'https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=800&auto=format&fit=crop',
-    },
-    {
-      title: 'Creative Design Services',
-      desc: 'Professional design solutions ranging from social media visuals to print materials.',
-      icon: <Palette size={24} />,
-      image: 'https://images.unsplash.com/photo-1558655146-d09347e92766?q=80&w=800&auto=format&fit=crop',
     },
   ];
 

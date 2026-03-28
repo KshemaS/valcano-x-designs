@@ -9,7 +9,12 @@ const About = () => {
   ];
 
   const clientsList = [
-    'NexCore', 'Lumina', 'Echo Studios', 'Apex Media', 'Vanguard', 'Aurora tech', 'Zephyr'
+    '/clients/AMZ-Logo.png',
+    '/clients/Al-Seyouh-Travels-Logo.png',
+    '/clients/Coab-Logo.png',
+    '/clients/Malabar-Logo.png',
+    '/clients/Natya-Veena-Logo.png',
+    '/clients/Skool-Way-Logo.png'
   ];
 
   return (
@@ -123,24 +128,26 @@ const About = () => {
               >
                 {/* Initial Set */}
                 <div className="flex items-center gap-20">
-                  {clientsList.map((client, index) => (
-                    <span
-                      key={index}
-                      className="text-white/20 hover:text-white transition-colors duration-500 font-bold text-3xl md:text-4xl uppercase tracking-widest font-everett select-none"
-                    >
-                      {client}
-                    </span>
+                  {clientsList.map((logo, index) => (
+                    <div key={index} className="flex-shrink-0">
+                      <img 
+                        src={logo} 
+                        alt="Client Logo" 
+                        className="h-12 w-auto grayscale brightness-125 opacity-30 hover:grayscale-0 hover:opacity-100 transition-all duration-500"
+                      />
+                    </div>
                   ))}
                 </div>
                 {/* Duplicated Set for infinite loop */}
-                <div className="flex items-center gap-20">
-                  {clientsList.map((client, index) => (
-                    <span
-                      key={`dup-${index}`}
-                      className="text-white/20 hover:text-white transition-colors duration-500 font-bold text-3xl md:text-4xl uppercase tracking-widest font-everett select-none"
-                    >
-                      {client}
-                    </span>
+                <div className="flex items-center gap-20 pl-20">
+                  {clientsList.map((logo, index) => (
+                    <div key={`dup-${index}`} className="flex-shrink-0">
+                      <img 
+                        src={logo} 
+                        alt="Client Logo" 
+                        className="h-12 w-auto grayscale brightness-125 opacity-30 hover:grayscale-0 hover:opacity-100 transition-all duration-500"
+                      />
+                    </div>
                   ))}
                 </div>
               </motion.div>
