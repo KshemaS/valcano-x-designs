@@ -3,27 +3,31 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ArrowLeft, ArrowRight } from 'lucide-react';
+import savad from '@/public/testimonials/Savad-MV.png';
+import amalapp from '@/public/testimonials/Amala-PP.png';
+import sahadev from '@/public/testimonials/Amala-Sahadev.png';
+
 
 const Testimonials = () => {
   const reviews = [
     {
-      name: 'Sarah Johnson',
-      role: 'CEO, TechFlow',
-      text: 'Volcano X transformed our brand identity into something truly remarkable. Their attention to detail and creative vision is unmatched.',
-      image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=800&auto=format&fit=crop'
+      name: 'Savad M V',
+      role: 'CEO, SkoolWay',
+      text: 'Volcano X didn’t just design a logo—he helped shape Skoolway’s identity. They were incredibly patient with feedback, brought fresh ideas, and delivered a modern, professional result that truly stands out. Highly recommended.',
+      image: savad.src
     },
     {
-      name: 'Michael Chen',
-      role: 'Marketing Director, Nexus',
-      text: 'The social media creatives they designed for us increased our engagement by 40%. Highly professional and creative team.',
-      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=800&auto=format&fit=crop'
+      name: 'Amala P P',
+      role: 'CEO, COAB',
+      text: 'Volcano X is a game-changer for any business looking to establish a strong online presence. Their team is professional, creative, and dedicated to delivering exceptional results.',
+      image: amalapp.src
     },
-    {
-      name: 'Emily Davis',
-      role: 'Founder, Bloom Studio',
-      text: 'Working with Volcano X was a breeze. They understood our requirements perfectly and delivered beyond our expectations.',
-      image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=800&auto=format&fit=crop'
-    },
+    // {
+    //   name: 'Amala Sahadev',
+    //   role: 'CEO, Natyala',
+    //   text: 'Working with Volcano X was a breeze. They understood our requirements perfectly and delivered beyond our expectations.',
+    //   image: sahadev.src
+    // },
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);

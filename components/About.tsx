@@ -133,7 +133,7 @@ const About = () => {
                       <img 
                         src={logo} 
                         alt="Client Logo" 
-                        className="h-12 w-auto grayscale brightness-125 opacity-30 hover:grayscale-0 hover:opacity-100 transition-all duration-500"
+                        className="h-12 w-auto transition-all duration-500"
                       />
                     </div>
                   ))}
@@ -145,7 +145,7 @@ const About = () => {
                       <img 
                         src={logo} 
                         alt="Client Logo" 
-                        className="h-12 w-auto grayscale brightness-125 opacity-30 hover:grayscale-0 hover:opacity-100 transition-all duration-500"
+                        className="h-12 w-auto transition-all duration-500"
                       />
                     </div>
                   ))}
