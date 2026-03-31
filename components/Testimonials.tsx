@@ -23,7 +23,7 @@ const Testimonials = () => {
       image: amalapp.src
     },
     {
-      name: 'Amala Sahadev',
+      name: 'Amal Sahadev',
       role: 'AMZ Dance Studio',
       text: 'Working with Volcano X was a breeze. They understood our requirements perfectly and delivered beyond our expectations. ',
       image: sahadev.src
