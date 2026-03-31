@@ -31,9 +31,9 @@ const Hero = () => {
 
     // Phase 2: Background split (0.4 to 1 progress)
     // Top half moves up
-    const bgTopY = useTransform(smoothProgress, [0.4, 0.9], ["0%", "-100%"]);
+    const bgTopY = useTransform(smoothProgress, [0.28, 0.70], ["0%", "-100%"]);
     // Bottom half moves down
-    const bgBottomY = useTransform(smoothProgress, [0.4, 0.9], ["0%", "100%"]);
+    const bgBottomY = useTransform(smoothProgress, [0.28, 0.70], ["0%", "100%"]);
 
     // Phase 3: Image scale (subtle zoom as we scroll)
     const imageScale = useTransform(smoothProgress, [0, 1], [1.1, 1]);

@@ -122,30 +122,30 @@ const About = () => {
               <div className="absolute inset-y-0 right-0 w-24 bg-gradient-to-l from-black to-transparent z-10" />
 
               <motion.div
-                className="flex items-center gap-20 w-max"
+                className="flex items-center gap-10 md:gap-20 w-max"
                 animate={{ x: ["0%", "-50%"] }}
                 transition={{ duration: 25, ease: "linear", repeat: Infinity }}
               >
                 {/* Initial Set */}
-                <div className="flex items-center gap-20">
+                <div className="flex items-center gap-10 md:gap-20">
                   {clientsList.map((logo, index) => (
                     <div key={index} className="flex-shrink-0">
-                      <img 
-                        src={logo} 
-                        alt="Client Logo" 
-                        className="h-12 w-auto transition-all duration-500"
+                      <img
+                        src={logo}
+                        alt="Client Logo"
+                        className="h-12 w-auto transition-all duration-500 w-[310px]"
                       />
                     </div>
                   ))}
                 </div>
                 {/* Duplicated Set for infinite loop */}
-                <div className="flex items-center gap-20 pl-20">
+                <div className="flex items-center gap-10 md:gap-20">
                   {clientsList.map((logo, index) => (
                     <div key={`dup-${index}`} className="flex-shrink-0">
-                      <img 
-                        src={logo} 
-                        alt="Client Logo" 
-                        className="h-12 w-auto transition-all duration-500"
+                      <img
+                        src={logo}
+                        alt="Client Logo"
+                        className="h-12 w-auto transition-all duration-500 w-[320px]"
                       />
                     </div>
                   ))}

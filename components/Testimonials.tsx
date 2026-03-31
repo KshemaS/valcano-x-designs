@@ -22,12 +22,12 @@ const Testimonials = () => {
       text: 'Volcano X is a game-changer for any business looking to establish a strong online presence. Their team is professional, creative, and dedicated to delivering exceptional results.',
       image: amalapp.src
     },
-    // {
-    //   name: 'Amala Sahadev',
-    //   role: 'CEO, Natyala',
-    //   text: 'Working with Volcano X was a breeze. They understood our requirements perfectly and delivered beyond our expectations.',
-    //   image: sahadev.src
-    // },
+    {
+      name: 'Amala Sahadev',
+      role: 'AMZ Dance Studio',
+      text: 'Working with Volcano X was a breeze. They understood our requirements perfectly and delivered beyond our expectations. ',
+      image: sahadev.src
+    },
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);

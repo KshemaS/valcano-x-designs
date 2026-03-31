@@ -12,6 +12,9 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "Volcano X Designs",
   description: "Premium Digital Solutions",
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({
