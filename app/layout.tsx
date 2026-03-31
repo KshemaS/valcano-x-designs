@@ -13,7 +13,14 @@ export const metadata: Metadata = {
   title: "Volcano X Designs",
   description: "Premium Digital Solutions",
   icons: {
-    icon: "/favicon.svg",
+    icon: [
+      {
+        url: "/favicon.svg",
+        type: "image/svg+xml",
+      },
+    ],
+    shortcut: "/favicon.svg",
+    apple: "/favicon.svg",
   },
 };
 
