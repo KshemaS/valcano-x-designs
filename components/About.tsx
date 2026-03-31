@@ -133,7 +133,7 @@ const About = () => {
                       <img
                         src={logo}
                         alt="Client Logo"
-                        className="h-12 w-auto transition-all duration-500 w-[310px]"
+                        className="h-16 w-auto transition-all duration-500 w-[310px]"
                       />
                     </div>
                   ))}
@@ -145,7 +145,7 @@ const About = () => {
                       <img
                         src={logo}
                         alt="Client Logo"
-                        className="h-12 w-auto transition-all duration-500 w-[320px]"
+                        className="h-16 w-auto transition-all duration-500 w-[320px]"
                       />
                     </div>
                   ))}
